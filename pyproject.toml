@@ -1,5 +1,5 @@
 [project]
-name = "practice-project-ANISH"
+name = "practice-project-ASD-v1.0.0"
 description = "A practice project for open-source development"
 authors = []
 dynamic = ["version"]
