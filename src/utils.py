@@ -104,3 +104,5 @@ def return_random_number() -> int:
     '''
 
     return np.random.randint(0, 100)
+print(return_random_number())
+print(return_hexadecimal(return_random_number()))
