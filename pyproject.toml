@@ -24,7 +24,7 @@ test = [
 ]
 
 [project.urls]
-repository = "https://github.com/GITHUBUSERNAME/contributor-onboarding"
+repository = "https://github.com/anishhs001/contributor-onboarding"
 documentation = "https://GITHUBUSERNAME.github.io/contributor-onboarding/"
 
 [build-system]
