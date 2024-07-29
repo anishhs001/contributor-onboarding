@@ -41,6 +41,7 @@ def divide(a: float, b: float) -> float:
     Returns:
     float
     '''
+    print("b shouldn't be zero")
     if b!=0: 
         return a / b
 
