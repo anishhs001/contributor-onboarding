@@ -37,4 +37,4 @@ jobs:
       with:
         repository_url: https://test.pypi.org/legacy/
         user: __token__
-        password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+        password: ${{ secrets.pypi-AgENdGVzdC5weXBpLm9yZwIkYzA1ZGZjNDktZDJhNC00OGQ2LTllOGQtYmM1M2Q1ODA2YzE1AAIqWzMsIjQ4ZGZlOGRmLTcyYzUtNDEwOS04YjdhLTQwYzU0NmQ0ZjRhNyJdAAAGIILWk24u8GFzCHstNeFNlacjlpfPHSfHURQJhzSjgsME }}
