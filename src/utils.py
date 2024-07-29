@@ -43,8 +43,9 @@ def divide(a: float, b: float) -> float:
     '''
     
     if b!=0: 
-        print("b shouldn't be zero")
         return a / b
+    else:
+        print("b shouldn't be zero")
 
 def modulo(a: int, b: int):
     '''
