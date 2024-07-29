@@ -41,7 +41,11 @@ def divide(a: float, b: float) -> float:
     Returns:
     float
     '''
-    return a / b
+    
+    if b!=0: 
+        return a / b
+    else:
+        print("b shouldn't be zero")
 
 def modulo(a: int, b: int):
     '''
@@ -102,5 +106,4 @@ def return_random_number(a: int, b:int) -> int:
     Returns:
     float
     '''
-
     return np.random.randint(a, b)
