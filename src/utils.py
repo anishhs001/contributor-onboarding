@@ -41,7 +41,8 @@ def divide(a: float, b: float) -> float:
     Returns:
     float
     '''
-    return a / b
+    if b!=0: 
+        return a / b
 
 def modulo(a: int, b: int):
     '''
