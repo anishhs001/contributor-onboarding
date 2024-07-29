@@ -106,4 +106,4 @@ def return_random_number() -> int:
     float
     '''
 
-    return np.random.randint(0, 100)
+    return np.random.randint(a,b)
