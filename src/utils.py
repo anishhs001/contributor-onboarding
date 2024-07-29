@@ -41,7 +41,7 @@ def divide(a: float, b: float) -> float:
     Returns:
     float
     '''
-    
+
     if b!=0: 
         return a / b
     else:
@@ -96,7 +96,7 @@ def return_hexadecimal(a: int) -> float:
 
 
 def return_random_number(a: int, b:int, seed:int) -> int:
-    
+
     '''
     ...
 
