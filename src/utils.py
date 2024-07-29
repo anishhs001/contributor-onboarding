@@ -95,7 +95,8 @@ def return_hexadecimal(a: int) -> float:
     return hex(a)
 
 
-def return_random_number(a: int, b:int) -> int:
+def return_random_number(a: int, b:int, seed:int) -> int:
+    
     '''
     ...
 
@@ -106,4 +107,6 @@ def return_random_number(a: int, b:int) -> int:
     Returns:
     float
     '''
+
+    np.random.seed(seed)
     return np.random.randint(a, b)
